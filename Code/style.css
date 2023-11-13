@@ -1,0 +1,64 @@
+/* Styles pour le header et la navigation */
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+body {
+    background-color: #333;
+    color: #fff;
+    font-family: Arial, sans-serif; /* Définissez la police de caractères que vous préférez */
+    margin: 0; /* Supprime les marges par défaut du corps du document */
+}
+
+nav {
+    background-color: #222;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+    margin-top: 1%;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav li {
+    display: inline;
+    margin: 0 10px;
+}
+
+/* Styles pour les sections de programme */
+section {
+    padding: 40px;
+    margin: 20px 0;
+}
+
+/* Liens de navigation pour les sections de programme */
+nav a {
+    color: #fff;
+    text-decoration: none;
+}
+
+/* Style pour le pied de page */
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+
+}
+
+/* Style pour rendre le lien e-mail cliquable */
+footer a {
+    color: #888; /* Couleur du lien en gris foncé (#888) */
+    text-decoration: none;
+}
